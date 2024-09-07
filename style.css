@@ -3,7 +3,7 @@ h4 {
 }
 
 article {
-    border: 2px solid darkviolet;
+    border: 2px solid rgb(139, 111, 151);
     border-radius: 15px;
     margin: 20px;
     padding: 10px;
@@ -27,6 +27,17 @@ article {
     object-fit: cover;
 }
 
+.my_profile_picture{
+    width: 20ex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid darkviolet;
+    height: 20ex;
+    object-fit: cover;
+}
+
 footer {
 text-align: center;
 background-color: aliceblue;
@@ -36,7 +47,7 @@ padding: 10px;
 header {
     padding: 10px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(199, 137, 173);
 }
 
 body {
